@@ -1,0 +1,16 @@
+@import "normalize";
+@import "main";
+
+$brand-color: green;
+body{
+	background:lighten($brand-color, 30%);
+}
+
+.site-header{
+	h1{
+		color:$brand-color;
+	}
+	.logo	{
+		width:100px
+	}
+}

@@ -43,7 +43,7 @@ font-family: 'Fjalla One', sans-serif;
 
 .head-container {
 	
-	height: 450px;
+	height: 550px;
 	border: 1px black solid;
 
 }
@@ -116,26 +116,47 @@ font-family: 'Fjalla One', sans-serif;
 		font-size: 20px;
 		margin: 0px 20px;
 		text-align: left;
+
 	}
 }
 
+.head-title{
+	margin-left:12rem;
+}
+
 .head-container{
+		background:url('../images/toilets.jpg') no-repeat center center;
 		text-align: center;
+		color:white;
 	h2{
-		margin-top: 4em;
+		margin-top: 6em;
 		font-size: 3em;
+	
 	}
+
+
 
 	.button{
 			display: inline-block;
 			background-color: gray;
-			border-radius: 5%;
+			border-radius: 10%;
 			color: white;
 			padding: 0.5em;
 	}
 
 }
 
+h3{
+	text-align: center;
+}
+
+.how-to{
+	background-color: gray;
+	color: white;
+	img{
+		margin: auto;
+	}
+}
 .site-footer{
 	background-color: gray;
 }

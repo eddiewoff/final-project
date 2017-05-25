@@ -43,29 +43,20 @@ font-family: 'Fjalla One', sans-serif;
 
 .head-container {
 	
-	height: 750px;
+	height: 700px;
 	// border: 1px black solid;
 
 }
 .header-nav{
-	height: 50px;
-	// max-width: 1200px;
-	// border: 1px red solid;
+	height: 60px;
 
 }
 
-// .carousels{
-// 	max-width: 960px;
-// 	margin: 0.5em auto;
 
-// 	border: 1px black solid;
-// }
 
-// .car-container{
-// 	width: 33.33%;
-// 	float: left; 
-// 	border: 1px red solid;
-// }
+
+
+
 
 // .how-to{
 // 	// max-width: 960px;
@@ -112,17 +103,17 @@ font-family: 'Fjalla One', sans-serif;
 	background-color: rgba(128,128,128, 0.5);
 	color: white;
 	text-align: left;
-	// display: inline-block;
-	h1{
-		width: 100px;
+}
+
+.header-nav h1{
+	padding-top: 0.4em;
+	width: 100px;
 		font-family: 'Fjalla One', sans-serif;
 		font-size: 20px;
 		margin: 0px 20px;
 		text-align: left;
 		display: inline-block;
-
-	}
-
+	// border: black 1px solid;
 }
 .account-nav, .search-nav {
 		width: 5em;
@@ -136,9 +127,6 @@ font-family: 'Fjalla One', sans-serif;
 
 	
 
-.head-title{
-	
-}
 
 .head-container{
 		background:url('../images/toilets.jpg') no-repeat center center;
@@ -163,21 +151,44 @@ font-family: 'Fjalla One', sans-serif;
 			padding: 0.5em;
 	}
 
-
-
 h3{
 	text-align: center;
+	margin: 1rem auto 4rem;
+}
+
+.carousels{
+	margin: 1rem auto 4rem;
+}
+
+.carousels h3{
+	// margin: 1rem auto 4rem;
+}
+
+.carousels h4{
+	text-align: center;
+}
+
+.carousels .stars{
+	text-align: center;
+	margin-bottom: 1.5em;
 }
 
 .how-to{
 	background-color: gray;
 	color: white;
+	margin: 1rem auto 4rem;
 	img{
 		margin: auto;
 	}
 }
+
+.nearby{
+	margin: 1rem auto 4rem;
+}
+
 .site-footer{
-	background-color: gray;
+	background-color: black;
+	color:white;
 }
 
 
